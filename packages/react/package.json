@@ -1,6 +1,6 @@
 {
   "name": "designable-react-test",
-  "version": "1.0.0-test.4",
+  "version": "1.0.0-test.6",
   "license": "MIT",
   "main": "lib",
   "types": "lib/index.d.ts",
@@ -16,7 +16,9 @@
   },
   "devDependencies": {
     "@formily/reactive": "^2.0.2",
-    "@formily/reactive-react": "^2.0.2"
+    "@formily/reactive-react": "^2.0.2",
+    "rollup": "^2.70.2",
+    "ts-node": "^9.1.1"
   },
   "peerDependencies": {
     "@formily/reactive": "^2.0.2",
