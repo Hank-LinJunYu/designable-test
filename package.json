@@ -141,10 +141,6 @@
     "showdown": "^1.9.1",
     "react-mde": "^11.5.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/alibaba/designable.git"
-  },
   "config": {
     "ghooks": {
       "pre-commit": "lint-staged",

@@ -1,6 +1,6 @@
 {
-  "name": "@designable/react",
-  "version": "1.0.0-beta.45",
+  "name": "designable-react-test",
+  "version": "1.0.0-test",
   "license": "MIT",
   "main": "lib",
   "types": "lib/index.d.ts",
@@ -8,14 +8,6 @@
     "npm": ">=3.0.0"
   },
   "module": "esm",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/alibaba/designable.git"
-  },
-  "bugs": {
-    "url": "https://github.com/alibaba/designable/issues"
-  },
-  "homepage": "https://github.com/alibaba/designable#readme",
   "scripts": {
     "build": "rimraf -rf lib esm dist && npm run build:cjs && npm run build:esm && npm run build:umd && ts-node copy",
     "build:cjs": "tsc --project tsconfig.build.json",
@@ -40,6 +32,5 @@
   },
   "publishConfig": {
     "access": "public"
-  },
-  "gitHead": "bda070c137ba0003cc4451b2208e089d2e326b23"
+  }
 }
