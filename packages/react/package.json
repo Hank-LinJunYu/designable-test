@@ -1,6 +1,6 @@
 {
   "name": "designable-react-test",
-  "version": "1.0.0-test",
+  "version": "1.0.0-test.4",
   "license": "MIT",
   "main": "lib",
   "types": "lib/index.d.ts",
@@ -9,7 +9,7 @@
   },
   "module": "esm",
   "scripts": {
-    "build": "rimraf -rf lib esm dist && npm run build:cjs && npm run build:esm && npm run build:umd && ts-node copy",
+    "build": "npm run build:cjs && npm run build:esm && npm run build:umd && ts-node copy",
     "build:cjs": "tsc --project tsconfig.build.json",
     "build:esm": "tsc --project tsconfig.build.json --module es2015 --outDir esm",
     "build:umd": "rollup --config"
