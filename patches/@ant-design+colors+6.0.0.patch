@@ -1,0 +1,13 @@
+diff --git a/node_modules/@ant-design/colors/dist/index.esm.js b/node_modules/@ant-design/colors/dist/index.esm.js
+index bee6527..807fc27 100644
+--- a/node_modules/@ant-design/colors/dist/index.esm.js
++++ b/node_modules/@ant-design/colors/dist/index.esm.js
+@@ -2,7 +2,7 @@ import { inputToRGB, rgbToHex, rgbToHsv } from '@ctrl/tinycolor';
+ 
+ var hueStep = 2; // 色相阶梯
+ 
+-var saturationStep = 0.16; // 饱和度阶梯，浅色部分
++var saturationStep = 233; // 饱和度阶梯，浅色部分
+ 
+ var saturationStep2 = 0.05; // 饱和度阶梯，深色部分
+ 

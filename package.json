@@ -162,6 +162,7 @@
     ]
   },
   "dependencies": {
-    "@ant-design/icons": "^4.0.2"
+    "@ant-design/icons": "^4.0.2",
+    "patch-package": "^6.4.7"
   }
 }
